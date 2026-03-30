@@ -1,6 +1,7 @@
 
 import Navbar from "./navbar";
 import Hero from "./hero";
+import Status from "./status";
 function App() {
 
 
@@ -8,6 +9,7 @@ function App() {
     <>
       <Navbar/>
       <Hero/>
+      <Status/>
     </>
   )
 }

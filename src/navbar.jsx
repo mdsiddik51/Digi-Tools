@@ -41,7 +41,7 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <a className="font-bold bg-gradient-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent text-[20px] md:text-4xl leading-normal">
+        <a className="font-bold bg-linear-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent text-[20px] md:text-4xl leading-normal">
           DigiTools
         </a>
       </div>
@@ -88,7 +88,7 @@ const Navbar = () => {
           </div>
           <h1 className="flex items-center justify-center">login</h1>
         </div>
-        <a className="btn text-[10px] lg:text-[16px] bg-gradient-to-r from-[#4F39F6] to-[#9514FA] rounded-full text-white">
+        <a className="btn text-[10px] lg:text-[16px] bg-linear-to-r from-[#4F39F6] to-[#9514FA] rounded-full text-white">
           Get Started
         </a>
       </div>
