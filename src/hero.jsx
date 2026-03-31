@@ -1,11 +1,11 @@
 const Hero = () => {
   return (
-    <div className="hero bg-white min-h-screen w-11/12 mx-auto pb-10 ">
+    <div className="hero bg-white min-h-screen w-11/12 mx-auto pb-5 md:pb-10 ">
       <div className="hero-content flex-col justify-between lg:flex-row-reverse">
         <img src=".\src\assets\banner.png" alt="" />
         <div className="p-1.5">
           <div>
-            <div className="mb-6">
+            <div className="pb-6">
               <span className="py-1 px-3 rounded-full bg-[#4F39F670]">
                 <span className="  bg-linear-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent">
                   <i className="fa-regular fa-circle-dot"></i> New: AI-Powered

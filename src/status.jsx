@@ -1,6 +1,6 @@
 const Status = () => {
   return (
-    <div className="bg-linear-to-r from-[#4F39F6] to-[#9514FA] py-12 flex justify-center items-center">
+    <div className="bg-linear-to-r from-[#4F39F6] to-[#9514FA] py-8 md:py-12 flex justify-center items-center">
       <div className="max-w-11/12  mx-auto grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-40 text-center text-white ">
 
         <div className="border-b md:border-b-0 md:border-r border-white/30 pb-8 md:pb-0 md:px-16">

@@ -3,7 +3,7 @@ const Navbar = () => {
     <div className="navbar bg-base-100 w-11/12 mx-auto">
       <div className="navbar-start">
         <div className="dropdown">
-          <div tabindex="0" role="button" className="btn btn-ghost lg:hidden">
+          <div tabIndex="0" role="button" className="btn btn-ghost lg:hidden">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-5 w-5"
@@ -21,7 +21,7 @@ const Navbar = () => {
             </svg>
           </div>
           <ul
-            tabindex="-1"
+            tabIndex="-1"
             className="menu  menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-1 shadow"
           >
             <li>
@@ -66,7 +66,7 @@ const Navbar = () => {
       </div>
       <div className="navbar-end space-x-1  md:space-x-4">
         <div className="flex md:gap-x-2  items-center justify-center">
-          <div tabindex="0" role="button" className="btn btn-ghost btn-circle">
+          <div tabIndex="0" role="button" className="btn btn-ghost btn-circle">
             <div className="indicator">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -86,7 +86,7 @@ const Navbar = () => {
               <small className="badge badge-sm bg-red-600  indicator-item rounded-full hidden"></small>
             </div>
           </div>
-          <h1 className="flex items-center justify-center">login</h1>
+          <h1 className="btn bg-transparent border-none hover:shadow-lg flex items-center justify-center">login</h1>
         </div>
         <a className="btn text-[10px] lg:text-[16px] bg-linear-to-r from-[#4F39F6] to-[#9514FA] rounded-full text-white">
           Get Started
