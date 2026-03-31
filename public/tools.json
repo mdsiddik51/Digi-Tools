@@ -124,9 +124,9 @@
     "name": "Online Course Builder",
     "description": "Create and sell your own courses effortlessly with interactive lessons and quizzes.",
     "price": 79,
-    "period": "one-time",
-    "tag": "New",
-    "tagType": "new",
+     "period": "one-time",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
     "features": [
         "Drag-and-drop course editor",
         "Quiz and assignment tools",
