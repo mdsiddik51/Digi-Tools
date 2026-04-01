@@ -3,7 +3,7 @@
 
 ### ⚙️what is Digitools
 
-- DigiTools is an all-in-one web toolkit, offering fast and easy-to-use digital tools for everyone to use.
+- DigiTools is an  all-in-one web toolkit website, it's offering fast and easy-to-use digital tools for everyone to use.
 
 
 ---
@@ -26,5 +26,5 @@
 ### ✨ Features about the website
 
 - Digitools Provides multiple useful online tools like image converters, text tools, and many more.  
-- Digitools is a Simple and user-friendly interface for easy use anywhere in the world.  
-- Digitools do not requires installation required — works directly in the browser It only requires an internet connection to work.  
+- Digitools is a Simple and user-friendly toolkit website designed for easy use anywhere in the world.  
+- Digitools do not requires installation it's — works directly in the browser It only requires an internet connection to work.  
