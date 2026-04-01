@@ -1,6 +1,6 @@
 const Steps = () => {
   return (
-    <div className="pt-5 md:pt-15 w-11/12 mx-auto pb-5 md:pb-15">
+    <div className="pt-10 md:pt-15 w-11/12 mx-auto pb-10 md:pb-15">
       <div>
         <div className="text-center pb-10">
           <h1 className="font-extrabold text-4xl md:text-5xl">Get Started in 3 Steps</h1>

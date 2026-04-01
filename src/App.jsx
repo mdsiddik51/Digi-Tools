@@ -7,6 +7,9 @@ import ToolsTitles from "./tootlstitle";
 import Tabs from "./tabs";
 import Card from "./card";
 import Steps from "./steps";
+import Plans from "./plan";
+import Footer from "./footer";
+
 // api call
 const getTools = async () => {
   const responce = await fetch("/tools.json");
@@ -42,6 +45,8 @@ function App() {
       )}
 
       <Steps/>
+      <Plans/>
+      <Footer/>
     </>
   );
 }

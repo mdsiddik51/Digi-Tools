@@ -20,8 +20,8 @@ const ModelCard = ({ model, currentCard, setCurrentCard }) => {
   };
 
   return (
-    <div className="rounded-md border border-[#62738280] p-6 ">
-      <div>
+    <div className="rounded-md border border-[#62738280]  p-6 ">
+      <div className="h-fit">
         <div className="flex justify-between">
           <span className="rounded-full p-3 border border-[#62738280] ">
             <img className="w-5 h-5" src={model.icon} />
