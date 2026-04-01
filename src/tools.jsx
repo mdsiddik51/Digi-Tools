@@ -7,7 +7,7 @@ const Tools = ({ toolsPromise,currentCard, setCurrentCard }) => {
  
 
   return (
-    <div className=" w-11/12 mx-auto">
+    <div className=" w-11/12 mx-auto pb-5 md:pb-10">
 
       {/* card div */}
 

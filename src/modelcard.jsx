@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { toast } from "react-toastify";
 
 const ModelCard = ({ model, currentCard, setCurrentCard }) => {
   const [isBuy, buy] = useState(false);
@@ -6,7 +7,16 @@ const ModelCard = ({ model, currentCard, setCurrentCard }) => {
   
   const handlebuy = () => {
     buy(true);
+
+    const isFound = currentCard.find((card) => card.id === model.id);
+
+    if(isFound) {
+      toast.error("Item already in cart!");
+      return;
+    }
+
     setCurrentCard([...currentCard , model]);
+    toast.success("Added to cart! 🛒");
   };
 
   return (

@@ -6,9 +6,8 @@ import { useState } from "react";
 import ToolsTitles from "./tootlstitle";
 import Tabs from "./tabs";
 import Card from "./card";
-
+import Steps from "./steps";
 // api call
-
 const getTools = async () => {
   const responce = await fetch("/tools.json");
   return responce.json();
@@ -16,24 +15,33 @@ const getTools = async () => {
 
 const toolsPromise = getTools();
 
-function App() {
 
+function App() {
   // usestate for tab
   const [activeTab, setActiveTab] = useState("products");
 
- // usestate for cards
- const [currentCard, setCurrentCard] = useState([]);
-
+  // usestate for cards
+  const [currentCard, setCurrentCard] = useState([]);
 
   return (
     <>
-      <Navbar />
+      <Navbar currentCard={currentCard} />
       <Hero />
       <Status />
       <ToolsTitles />
-      <Tabs activeTab={activeTab} setActiveTab={setActiveTab} />
-      {activeTab === "products" && <Tools toolsPromise={toolsPromise} currentCard={currentCard} setCurrentCard={setCurrentCard} />}
-      {activeTab === "Cart" && <Card currentCard={currentCard} setCurrentCard={setCurrentCard} />}
+      <Tabs activeTab={activeTab} setActiveTab={setActiveTab} currentCard={currentCard} />
+      {activeTab === "products" && (
+        <Tools
+          toolsPromise={toolsPromise}
+          currentCard={currentCard}
+          setCurrentCard={setCurrentCard}
+        />
+      )}
+      {activeTab === "Cart" && (
+        <Card currentCard={currentCard} setCurrentCard={setCurrentCard} />
+      )}
+
+      <Steps/>
     </>
   );
 }
