@@ -80,7 +80,7 @@ const Card = ({ currentCard, setCurrentCard }) => {
         <div className=" flex justify-center pt-6">
           <button
             onClick={handlepayment}
-            className="w-full font-bold text-white bg-linear-to-r from-[#4F39F6] to-[#9514FA] hover:opacity-90 rounded-full py-3 transition duration-300"
+            className="w-full font-bold text-white bg-linear-to-r from-[#4F39F6] to-[#9514FA] hover:opacity-90 rounded-full   py-3 transition duration-300"
           >
             Proceed to Checkout
           </button>
