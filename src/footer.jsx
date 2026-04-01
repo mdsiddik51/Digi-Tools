@@ -2,7 +2,7 @@ const Footer = () => {
   return (
     <div className="bg-[#101727] pt-15 md:pt-30">
       <div className="w-11/12 mx-auto">
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols- gap-7">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-7">
           <div className="space-y-3.5">
             <h1 className="font-bold pb-3 text-white text-4xl">DigiTools</h1>
             <p className="text-white/50">

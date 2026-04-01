@@ -24,17 +24,17 @@ const Hero = () => {
             Explore Products
           </p>
 
-          <div className="flex flex-wrap gap-4 pt-8">
-            <button className="btn p-5 bg-linear-to-r from-[#4F39F6] to-[#9514FA] rounded-full text-white">
+          <div className="flex gap-4 pt-8">
+            <button className="btn p-5 bg-linear-to-r from-[#4F39F6] to-[#9514FA] ease-in-out hover:scale-110 hover:opacity-90  py-3 transition duration-300 rounded-full text-white">
               Explore Products
             </button>
 
-            <button className="bg-linear-to-r from-[#4F39F6] to-[#9514FA] p-0.5 rounded-full">
+            <button className="bg-linear-to-r from-[#4F39F6] to-[#9514FA] ease-in-out hover:scale-110 hover:opacity-90  transition duration-300 p-0.5 rounded-full">
               <div className="flex items-center gap-2 bg-white rounded-full h-full px-2">
                 <img
                   src="./src/assets/play.png"
                 />
-                <span className="bg-linear-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent font-semibold">
+                <span className="bg-linear-to-r  from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent font-semibold">
                   Watch Demo
                 </span>
               </div>

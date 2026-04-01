@@ -9,7 +9,7 @@ const Steps = () => {
           </p>
         </div>
         <div className="grid grid-cols-1  md:grid-cols-3 gap-4">
-          <div className="relative p-6 border border-[#62738250] rounded-lg">
+          <div className="relative p-6 border border-[#62738250] rounded-lg transition-all duration-300 ease-in-out hover:-translate-y-2  hover:border-[#9514FA] hover:shadow-[0_0_20px_rgba(149,20,250,0.5)]">
             <span className="absolute top-3 right-3 bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white font-bold w-8 h-8 flex items-center justify-center rounded-full">
               01
             </span>
@@ -33,7 +33,7 @@ const Steps = () => {
           </div>
 
           {/* card - 2 */}
-          <div className="relative p-6 border border-[#62738250] rounded-lg">
+          <div className="relative p-6 border border-[#62738250] rounded-lg transition-all duration-300 ease-in-out hover:-translate-y-2  hover:border-[#9514FA] hover:shadow-[0_0_20px_rgba(149,20,250,0.5)]">
             <span className="absolute top-3 right-3 bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white font-bold w-8 h-8 flex items-center justify-center rounded-full">
               02
             </span>
@@ -57,7 +57,7 @@ const Steps = () => {
 
           {/* card - 3 */}
 
-          <div className="relative p-6 border border-[#62738250] rounded-lg">
+          <div className="relative p-6 border border-[#62738250] rounded-lg transition-all duration-300 ease-in-out hover:-translate-y-2  hover:border-[#9514FA] hover:shadow-[0_0_20px_rgba(149,20,250,0.5)]">
             <span className="absolute top-3 right-3 bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white font-bold w-8 h-8 flex items-center justify-center rounded-full">
               03
             </span>

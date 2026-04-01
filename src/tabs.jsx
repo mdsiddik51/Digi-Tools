@@ -8,7 +8,7 @@ const Tabs = ({ activeTab, setActiveTab , currentCard }) => {
       <input
         type="radio"
         name="my_tabs_1"
-        className={`tab ${activeTab === "products" ? "bg-linear-to-r from-[#4F39F6] to-[#9514FA] rounded-full py-2 px-6 text-white font-bold" : "rounded-full py-2 px-6 text-black font-bold bg-white"}`}
+        className={`tab ${activeTab === "products" ? "bg-linear-to-r from-[#4F39F6] to-[#9514FA] rounded-full py-2 px-6 text-white font-bold ease-in-out hover:scale-110 hover:opacity-90  transition duration-300" : "rounded-full py-2 px-6 text-black font-bold bg-white"}`}
         aria-label="Products"
         defaultChecked
         onClick={() => setActiveTab("products")}
@@ -17,7 +17,7 @@ const Tabs = ({ activeTab, setActiveTab , currentCard }) => {
         onClick={() => setActiveTab("Cart")}
         type="radio"
         name="my_tabs_1"
-        className={`tab ${activeTab === "Cart" ? "bg-linear-to-r from-[#4F39F6] to-[#9514FA] rounded-full py-2 px-6 text-white font-bold" : "rounded-full py-2 px-6 text-black font-bold bg-white"}`}
+        className={`tab ${activeTab === "Cart" ? "bg-linear-to-r from-[#4F39F6] to-[#9514FA] rounded-full py-2 px-6 text-white font-bold ease-in-out hover:scale-110 hover:opacity-90  transition duration-300" : "rounded-full py-2 px-6 text-black hover:bg-linear-to-r hover:from-[#4F39F6] hover:scale-110 hover:to-[#9514FA] hover:bg-clip-text hover:text-transparent font-bold bg-white"}`}
         aria-label={`${currentCard.length === 0 ? "Cart" : `Cart (${currentCard.length})`}`}
       />
     </div>
