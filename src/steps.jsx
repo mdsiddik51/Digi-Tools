@@ -1,14 +1,14 @@
 const Steps = () => {
   return (
-    <div className="pt-10 md:pt-15 w-11/12 mx-auto pb-10 md:pb-15">
+    <div className="pt-5 md:pt-10  w-11/12 mx-auto pb-10 md:pb-15">
       <div>
-        <div className="text-center pb-10">
+        <div className="text-center pb-15">
           <h1 className="font-extrabold text-4xl md:text-5xl">Get Started in 3 Steps</h1>
           <p className="text-[#62738280] pt-4">
             Start using premium digital tools in minutes, not hours.
           </p>
         </div>
-        <div className="grid grid-cols-1  md:grid-cols-3 gap-4">
+        <div className="grid grid-cols-1  md:grid-cols-3 gap-4 ">
           <div className="relative p-6 border border-[#62738250] rounded-lg transition-all duration-300 ease-in-out hover:-translate-y-2  hover:border-[#9514FA] hover:shadow-[0_0_20px_rgba(149,20,250,0.5)]">
             <span className="absolute top-3 right-3 bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white font-bold w-8 h-8 flex items-center justify-center rounded-full">
               01

@@ -33,34 +33,49 @@ const Footer = () => {
             <p className="text-white/50">Contact</p>
           </div>
           <div className="space-y-3.5">
-            <h1 className="font-medium text-[20px] text-white">
-              Social Links
-            </h1>
+            <h1 className="font-medium text-[20px] text-white">Social Links</h1>
             <div className=" flex gap-5">
-              <small className="bg-white text-black rounded-full flex items-center justify-center w-8 h-8">
+              <small
+                class="hover:bg-linear-to-r from-[#4F39F6] to-[#9514FA] 
+            text-black rounded-full flex items-center justify-center
+            w-8 h-8 transform transition-all duration-500
+            hover:scale-110 bg-white"
+              >
                 <i class="fa-brands fa-instagram text-lg"></i>
               </small>
-              <span className="bg-white text-black rounded-full flex items-center justify-center w-8 h-8">
+              <span
+                class="hover:bg-linear-to-r from-[#4F39F6] to-[#9514FA] 
+            text-black rounded-full flex items-center justify-center
+            w-8 h-8 transform transition-all duration-500
+            hover:scale-110 bg-white"
+              >
                 <i class="fa-brands fa-square-facebook text-lg"></i>
               </span>
-              <span className="bg-white text-black rounded-full flex items-center justify-center w-8 h-8">
+              <span
+                class="hover:bg-linear-to-r from-[#4F39F6] to-[#9514FA] 
+            text-black rounded-full flex items-center justify-center
+            w-8 h-8 transform transition-all duration-500
+            hover:scale-110 bg-white"
+              >
                 <i class="fa-brands fa-x-twitter text-lg"></i>
               </span>
             </div>
           </div>
         </div>
-            <div className="pt-10 md:pt-20">
-                <hr className="text-white/50" />
-            </div>
+        <div className="pt-10 md:pt-20">
+          <hr className="text-white/50" />
+        </div>
         <div className="flex flex-col md:flex-row md:justify-between p-7.5">
-            <div>
-                <h4 className="text-white/50">© 2026 Digitools. All rights reserved.</h4>
-            </div>
-            <div className="text-white/50 flex text-center gap-5">
-                <h4>Privacy Policy</h4>
-                <h4>Terms of Service</h4>
-                <h4>Cookies</h4>
-            </div>
+          <div>
+            <h4 className="text-white/50">
+              © 2026 Digitools. All rights reserved.
+            </h4>
+          </div>
+          <div className="text-white/50 flex text-center gap-5">
+            <h4>Privacy Policy</h4>
+            <h4>Terms of Service</h4>
+            <h4>Cookies</h4>
+          </div>
         </div>
       </div>
     </div>

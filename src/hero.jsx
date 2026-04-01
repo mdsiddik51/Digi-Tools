@@ -25,11 +25,11 @@ const Hero = () => {
           </p>
 
           <div className="flex gap-4 pt-8">
-            <button className="btn p-5 bg-linear-to-r from-[#4F39F6] to-[#9514FA] ease-in-out hover:scale-110 hover:opacity-90  py-3 transition duration-300 rounded-full text-white">
+            <button className="btn p-5 bg-linear-to-r from-[#4F39F6] to-[#9514FA] ease-in-out hover:scale-110 hover:opacity-90  py-3 transition duration-300 rounded-full text-white hover:shadow-[0_0_20px_rgba(149,20,250,0.5)]">
               Explore Products
             </button>
 
-            <button className="bg-linear-to-r from-[#4F39F6] to-[#9514FA] ease-in-out hover:scale-110 hover:opacity-90  transition duration-300 p-0.5 rounded-full">
+            <button className="bg-linear-to-r from-[#4F39F6] to-[#9514FA] ease-in-out hover:scale-110 hover:opacity-90  transition duration-300 p-0.5 rounded-full hover:shadow-[0_0_20px_rgba(149,20,250,0.5)]">
               <div className="flex items-center gap-2 bg-white rounded-full h-full px-2">
                 <img
                   src="./src/assets/play.png"

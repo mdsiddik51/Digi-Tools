@@ -9,6 +9,7 @@ import Card from "./card";
 import Steps from "./steps";
 import Plans from "./plan";
 import Footer from "./footer";
+import Workflow from "./workflow";
 
 // api call
 const getTools = async () => {
@@ -46,6 +47,7 @@ function App() {
 
       <Steps/>
       <Plans/>
+      <Workflow/>
       <Footer/>
     </>
   );

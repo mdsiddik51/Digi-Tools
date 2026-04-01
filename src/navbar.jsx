@@ -81,7 +81,7 @@ const Navbar = ({ currentCard }) => {
           </h1>
         </div>
 
-        <a className="btn text-[10px] lg:text-[16px] bg-linear-to-r from-[#4F39F6] to-[#9514FA] rounded-full text-white ease-in-out hover:scale-110 hover:opacity-90  py-3 transition duration-300 ">
+        <a className="btn text-[10px] lg:text-[16px] bg-linear-to-r from-[#4F39F6] to-[#9514FA] rounded-full text-white ease-in-out hover:scale-110 hover:opacity-90  py-3 transition duration-300 hover:shadow-[0_0_20px_rgba(149,20,250,0.5)]">
           Get Started
         </a>
       </div>
