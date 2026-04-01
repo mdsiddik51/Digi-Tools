@@ -24,11 +24,21 @@ const Navbar = ({ currentCard }) => {
             tabIndex={-1}
             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-1 shadow"
           >
-            <li><a>Products</a></li>
-            <li><a>Features</a></li>
-            <li><a>Pricing</a></li>
-            <li><a>Testimonials</a></li>
-            <li><a>FAQ</a></li>
+            <li>
+              <a>Products</a>
+            </li>
+            <li>
+              <a>Features</a>
+            </li>
+            <li>
+              <a>Pricing</a>
+            </li>
+            <li>
+              <a>Testimonials</a>
+            </li>
+            <li>
+              <a>FAQ</a>
+            </li>
           </ul>
         </div>
 
@@ -39,11 +49,21 @@ const Navbar = ({ currentCard }) => {
 
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
-          <li><a>Products</a></li>
-          <li><a>Features</a></li>
-          <li><a>Pricing</a></li>
-          <li><a>Testimonials</a></li>
-          <li><a>FAQ</a></li>
+          <li>
+            <a>Products</a>
+          </li>
+          <li>
+            <a>Features</a>
+          </li>
+          <li>
+            <a>Pricing</a>
+          </li>
+          <li>
+            <a>Testimonials</a>
+          </li>
+          <li>
+            <a>FAQ</a>
+          </li>
         </ul>
       </div>
 

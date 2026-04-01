@@ -1,8 +1,4 @@
-
-
-const Tabs = ({ activeTab, setActiveTab , currentCard }) => {
-
-
+const Tabs = ({ activeTab, setActiveTab, currentCard }) => {
   return (
     <div className="tabs pt-4 md:pt-6 flex justify-center gap-10 pb-10">
       <input

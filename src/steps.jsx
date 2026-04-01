@@ -3,7 +3,9 @@ const Steps = () => {
     <div className="pt-5 md:pt-10  w-11/12 mx-auto pb-10 md:pb-15">
       <div>
         <div className="text-center pb-15">
-          <h1 className="font-extrabold text-4xl md:text-5xl">Get Started in 3 Steps</h1>
+          <h1 className="font-extrabold text-4xl md:text-5xl">
+            Get Started in 3 Steps
+          </h1>
           <p className="text-[#62738280] pt-4">
             Start using premium digital tools in minutes, not hours.
           </p>
@@ -17,7 +19,7 @@ const Steps = () => {
             <div className="text-center">
               <div className="flex justify-center pt-22">
                 <div className="bg-[#9514FA50] p-4 rounded-full">
-                  <img src="src\assets\user.png" />
+                  <img src="/assets/user.png" />
                 </div>
               </div>
               <div className="space-y-4 pt-4 pb-4 md:pb-20">
@@ -41,7 +43,7 @@ const Steps = () => {
             <div className="text-center">
               <div className="flex justify-center pt-22">
                 <div className="bg-[#9514FA50] p-4 rounded-full">
-                  <img src="src\assets\package.png" />
+                  <img src="/assets/package.png" />
                 </div>
               </div>
               <div className="space-y-4 pt-4 pb-4 md:pb-20">
@@ -49,7 +51,8 @@ const Steps = () => {
                   Choose Products
                 </h1>
                 <p className="text-[#62738280]">
-                  Browse our catalog and select the tool <br /> sthat fit your needs.
+                  Browse our catalog and select the tool <br /> sthat fit your
+                  needs.
                 </p>
               </div>
             </div>
@@ -65,7 +68,7 @@ const Steps = () => {
             <div className="text-center">
               <div className="flex justify-center pt-22">
                 <div className="bg-[#9514FA50] p-4 rounded-full">
-                  <img src="src\assets\rocket.png" />
+                  <img src="/assets/rocket.png" />
                 </div>
               </div>
               <div className="space-y-4 pt-4 pb-4 md:pb-20">

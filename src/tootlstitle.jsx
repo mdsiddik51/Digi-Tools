@@ -1,6 +1,6 @@
 const ToolsTitles = () => {
   return (
-    <div  className=" pt-20 md:pt-30 w-11/12 mx-auto">
+    <div className=" pt-20 md:pt-30 w-11/12 mx-auto">
       <div className="text-center">
         <h1 className="text-6xl  font-semibold text-[#101727] pb-5">
           Premium Digital Tools

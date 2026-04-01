@@ -11,9 +11,7 @@ const Plans = () => {
       </div>
 
       <div className="md:pt-10 pt-3 grid grid-cols-1 md:grid-cols-3 gap-10  md:gap-5 ">
-        <div
-          className="p-6 bg-[#F2F2F2] rounded-lg transition-all duration-300 ease-in-out hover:-translate-y-2  hover:border-[#9514FA] hover:shadow-[0_0_20px_rgba(149,20,250,0.5)] "
-        >
+        <div className="p-6 bg-[#F2F2F2] rounded-lg transition-all duration-300 ease-in-out hover:-translate-y-2  hover:border-[#9514FA] hover:shadow-[0_0_20px_rgba(149,20,250,0.5)] ">
           <div className="pt-6">
             <h4 className="text-[#101727] font-bold text-2xl">Starter</h4>
             <p className="text-[#627382]">Perfect for getting started</p>
@@ -85,7 +83,9 @@ const Plans = () => {
               <small>
                 <i className="fa-solid fa-check text-white"></i>
               </small>
-              <p className="font-medium text-white">Access to all premium tools</p>
+              <p className="font-medium text-white">
+                Access to all premium tools
+              </p>
             </h3>
             <h3 className="flex items-center gap-1">
               <small>
@@ -122,7 +122,6 @@ const Plans = () => {
           <div className="pt-3 ">
             <button className="bg-white rounded-full w-full py-2 px-4">
               <span className="bg-linear-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent  font-bold hover:opacity-90 transition duration-300 ">
-            
                 Start Pro Trial
               </span>
             </button>
@@ -148,9 +147,7 @@ const Plans = () => {
               <small>
                 <i className="fa-solid fa-check text-[#30B868]"></i>
               </small>
-              <p className="font-medium text-[#627382]">
-               Everything in Pro
-              </p>
+              <p className="font-medium text-[#627382]">Everything in Pro</p>
             </h3>
             <h3 className="flex items-center gap-1">
               <small>

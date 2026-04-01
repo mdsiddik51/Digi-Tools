@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <div className="bg-[#101727] pt-15 md:pt-30">
+    <div className="bg-[#101727] pt-15 p-2 md:pt-30">
       <div className="w-11/12 mx-auto">
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-7">
           <div className="space-y-3.5">
@@ -65,16 +65,18 @@ const Footer = () => {
         <div className="pt-10 md:pt-20">
           <hr className="text-white/50" />
         </div>
-        <div className="flex flex-col md:flex-row md:justify-between p-7.5">
+        <div className="flex flex-col md:flex-row md:justify-between text-center p-7.5">
           <div>
-            <h4 className="text-white/50">
+            <h4 className="text-white/50 text-[12px] md:text-[16px] ">
               © 2026 Digitools. All rights reserved.
             </h4>
           </div>
-          <div className="text-white/50 flex text-center gap-5">
-            <h4>Privacy Policy</h4>
-            <h4>Terms of Service</h4>
-            <h4>Cookies</h4>
+          <div className="text-white/50 text-center">
+            <div className="grid grid-cols-3 gap-3 pt-3 md:pt-0 text-[12px] md:text-[16px]">
+              <h4>Privacy Policy</h4>
+              <h4>Terms of Service</h4>
+              <h4>Cookies</h4>
+            </div>
           </div>
         </div>
       </div>

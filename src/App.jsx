@@ -19,7 +19,6 @@ const getTools = async () => {
 
 const toolsPromise = getTools();
 
-
 function App() {
   // usestate for tab
   const [activeTab, setActiveTab] = useState("products");
@@ -33,7 +32,11 @@ function App() {
       <Hero />
       <Status />
       <ToolsTitles />
-      <Tabs activeTab={activeTab} setActiveTab={setActiveTab} currentCard={currentCard} />
+      <Tabs
+        activeTab={activeTab}
+        setActiveTab={setActiveTab}
+        currentCard={currentCard}
+      />
       {activeTab === "products" && (
         <Tools
           toolsPromise={toolsPromise}
@@ -45,10 +48,10 @@ function App() {
         <Card currentCard={currentCard} setCurrentCard={setCurrentCard} />
       )}
 
-      <Steps/>
-      <Plans/>
-      <Workflow/>
-      <Footer/>
+      <Steps />
+      <Plans />
+      <Workflow />
+      <Footer />
     </>
   );
 }

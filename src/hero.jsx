@@ -2,7 +2,7 @@ const Hero = () => {
   return (
     <div className="hero bg-white min-h-screen w-11/12 mx-auto pb-5 md:pb-10 ">
       <div className="hero-content flex-col justify-between lg:flex-row-reverse">
-        <img src=".\src\assets\banner.png" alt="" />
+        <img src="/assets/banner.png" alt="" />
         <div className="p-1.5">
           <div>
             <div className="pb-6">
@@ -31,9 +31,7 @@ const Hero = () => {
 
             <button className="bg-linear-to-r from-[#4F39F6] to-[#9514FA] ease-in-out hover:scale-110 hover:opacity-90  transition duration-300 p-0.5 rounded-full hover:shadow-[0_0_20px_rgba(149,20,250,0.5)]">
               <div className="flex items-center gap-2 bg-white rounded-full h-full px-2">
-                <img
-                  src="./src/assets/play.png"
-                />
+                <img src="/assets/Play.png" />
                 <span className="bg-linear-to-r  from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent font-semibold">
                   Watch Demo
                 </span>
